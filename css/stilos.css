@@ -27,11 +27,19 @@
 }
 #menu {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr  1fr 1fr;
     gap: 15px;
 }
+.rgb {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
 .pie {
-    background-color: rgb(204, 202, 199);
+    background-color: rgb(238, 238, 238);
     color: black;
-    border: 2px solid rgb(63, 14, 14);
+    border: 2px solid black;
+}
+#form {
+    display: grid;
+    background-color: aliceblue;
 }
