@@ -12,7 +12,29 @@
     width: 100%;
 }
 #bann {
-    display: flex;
+    display: none;
+}
+@media (min-width: 650px) {
+    #bann {
+        display: flex;
+        border: solid 2px black;
+    }
+}
+
+.hd1 {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border: solid 2px black;
+}
+#form {   
+    display: grid;
+    width: auto;
+    background-color: aliceblue;
+ }
+.pie {
+    background-color:  rgb(238, 238, 238);
+    color: black;
+    border: 2px solid black;
 }
 .dir {
     display: grid;
@@ -21,25 +43,4 @@
 }
 .redes {
     display:flex;
-}
-.hd1 {
-    text-align: center;
-}
-#menu {
-    display: grid;
-    grid-template-columns: 1fr  1fr 1fr;
-    gap: 15px;
-}
-.rgb {
-    background-color: rgb(238, 238, 238);
-    text-align: center;
-}
-.pie {
-    background-color: rgb(238, 238, 238);
-    color: black;
-    border: 2px solid black;
-}
-#form {
-    display: grid;
-    background-color: aliceblue;
 }
