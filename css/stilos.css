@@ -20,16 +20,32 @@
         border: solid 2px black;
     }
 }
-
+    
 .hd1 {
     text-align: center;
     background-color: rgb(238, 238, 238);
     border: solid 2px black;
 }
+.hd1:hover {
+    background-color: rgb(198, 197, 197);
+}
 #form {   
     display: grid;
     width: auto;
     background-color: aliceblue;
+ }
+ @media (min-width: 650px) { 
+ #menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: 1fr;
+    gap: 5px;
+}
+ }
+ .mesa {
+    display: inline-block;
+    text-align: center;
+    gap: 15px;
  }
 .pie {
     background-color:  rgb(238, 238, 238);
