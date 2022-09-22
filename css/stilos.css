@@ -18,15 +18,16 @@
     display: none;
 }
 @media (min-width: 650px) {
-    #bann {
-        display: flex;
-        border: solid 2px black;
+    #bann {   
+        display: flex; 
+        justify-content: space-around;
+        border: solid 2px  rgb(198, 197, 197);
     }
 }  
 .hd1 {
     text-align: center;
     background-color: rgb(238, 238, 238);
-    border: solid 2px black;
+    border: solid 2px black
 }
 .hd1:hover {
     background-color: rgb(198, 197, 197);
