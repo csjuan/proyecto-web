@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.fondo {
+    background-color:rgb(238, 238, 238);
+}
 #slider {
     display:grid;
     text-align: center;
@@ -19,8 +22,7 @@
         display: flex;
         border: solid 2px black;
     }
-}
-    
+}  
 .hd1 {
     text-align: center;
     background-color: rgb(238, 238, 238);
@@ -59,4 +61,10 @@
 }
 .redes {
     display:flex;
+}
+.anime:hover {
+    transform: rotate(180deg);
+}
+.animate__animated:hover {
+    transform: rotate(180deg);
 }
