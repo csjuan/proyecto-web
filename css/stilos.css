@@ -7,23 +7,6 @@
 .fondo {
     background-color:rgb(238, 238, 238);
 }
-#slider {
-    display:grid;
-    text-align: center;
-}
-#slider img {
-    width: 100%;
-}
-#bann {
-    display: none;
-}
-@media (min-width: 650px) {
-    #bann {   
-        display: flex; 
-        justify-content: space-around;
-        border: solid 2px  rgb(198, 197, 197);
-    }
-}  
 .hd1 {
     text-align: center;
     background-color: rgb(238, 238, 238);

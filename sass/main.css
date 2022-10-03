@@ -1,0 +1,42 @@
+#slider {
+  background-color: rgb(125, 137, 133);
+}
+#slider .hd1 {
+  text-align: center;
+  border: solid 2px black;
+}
+#slider .hd1:hover {
+  background-color: rgb(198, 197, 197);
+}
+#slider .img {
+  width: 100%;
+}
+
+#bann {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  #bann {
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px rgb(198, 197, 197);
+  }
+}
+.pie {
+  background-color: rgb(238, 238, 238);
+  color: black;
+  border: 2px solid black;
+}
+.pie .dir {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+}
+.redes .anime:hover {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=main.css.map */
