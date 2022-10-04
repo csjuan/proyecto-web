@@ -1,0 +1,59 @@
+$color1: rgb(229, 223, 223);
+$color2:  rgb(238, 238, 238);
+
+#slider {
+    background-color: $color2 ;
+    .hd1 {
+     text-align: center;
+     border: solid 2px black
+    }
+    .hd1:hover {
+        background-color: $color1;
+    }
+    .img {
+        width: 100%;
+    }
+    h2:hover {
+        background-color: $color1;
+     }
+     h3:hover {
+        background-color: $color1;
+     }
+     h4:hover {
+        background-color: $color1;
+     }
+}
+
+
+#bann {
+    display: none;
+}
+@media (min-width: 650px) {
+    #bann {   
+        display: flex; 
+        justify-content: space-around;
+        border: solid 2px  rgb(198, 197, 197);
+    }
+}  
+@each $back in  white, red, grey, yellow, orange, blue, {
+    .bg-#{$back} {
+        background-color: $back;
+    }
+    
+}
+.pie {
+    background-color:  rgb(238, 238, 238);
+    color: black;
+    border: 2px solid black;
+    .dir {
+         display: grid;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+}
+.redes {
+    display:flex;
+    .anime:hover {
+        transform: rotate(180deg);
+    }
+}

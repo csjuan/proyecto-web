@@ -1,15 +1,24 @@
 #slider {
-  background-color: rgb(125, 137, 133);
+  background-color: rgb(238, 238, 238);
 }
 #slider .hd1 {
   text-align: center;
   border: solid 2px black;
 }
 #slider .hd1:hover {
-  background-color: rgb(198, 197, 197);
+  background-color: rgb(229, 223, 223);
 }
 #slider .img {
   width: 100%;
+}
+#slider h2:hover {
+  background-color: rgb(229, 223, 223);
+}
+#slider h3:hover {
+  background-color: rgb(229, 223, 223);
+}
+#slider h4:hover {
+  background-color: rgb(229, 223, 223);
 }
 
 #bann {
@@ -23,6 +32,30 @@
     border: solid 2px rgb(198, 197, 197);
   }
 }
+.bg-white {
+  background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
 .pie {
   background-color: rgb(238, 238, 238);
   color: black;
