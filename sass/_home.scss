@@ -1,20 +1,25 @@
 $color1: rgb(203, 203, 203);
 $color2:  rgb(238, 238, 238);
+$color3: black ;
+$color4: rgb(75, 75, 75);
+$color5: white;
+$color6: rgb(231, 231, 231);
+
 @mixin cont {
     display: inline-flex;
-    padding: 8px;
+    padding: 5px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     border: solid 2px black; 
-    background-color: rgb(42, 40, 40);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: $color3;
 }
 
 #slider {
     background-color: $color2 ;
     .hd1 {
      text-align: center;
-     border: solid 2px black;
+     border: solid 2px $color3;
     }
     .hd1:hover {
         background-color: $color1;
@@ -35,12 +40,6 @@ $color2:  rgb(238, 238, 238);
     @include cont;
     border-radius: 25px;
 }
-.cont1 {
-    @include cont;
-    border-radius: 25px;
-}
-
-
 #bann {
     display: none;
 }
@@ -70,9 +69,6 @@ $color2:  rgb(238, 238, 238);
 .redes {
     display:flex;
     .anime:hover {
-        padding: 5px;
-        border-radius: 25px;
-        background-color: rgb(193, 193, 193);
         transform: rotate(60deg);
     }
 }
