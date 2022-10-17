@@ -85,9 +85,25 @@
   text-align: center;
 }
 
+.cuest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr;
+  text-align: center;
+}
+.cuest .boton {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 .redes {
   display: flex;
 }
 .redes .anime:hover {
   transform: rotate(60deg);
+}
+
+.terminos {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

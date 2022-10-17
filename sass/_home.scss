@@ -14,6 +14,11 @@ $color6: rgb(231, 231, 231);
     background-color: rgb(255, 255, 255);
     color: $color3;
 }
+@mixin bt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: $color3;
+}
 
 #slider {
     background-color: $color2 ;
@@ -66,9 +71,23 @@ $color6: rgb(231, 231, 231);
         text-align: center;
     }
 }
+.cuest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    text-align: center;
+    .boton {
+        @include bt;
+    
+
+    }
+}
 .redes {
     display:flex;
     .anime:hover {
         transform: rotate(60deg);
     }
+}
+.terminos {
+    text-align: center;
 }
