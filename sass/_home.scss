@@ -11,7 +11,7 @@ $color6: rgb(231, 231, 231);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     border: solid 2px black; 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(215, 215, 215);
     color: $color3;
 }
 @mixin bt {
@@ -62,6 +62,7 @@ $color6: rgb(231, 231, 231);
     
 }
 .pie {
+    width: auto;
     background-color:  rgb(238, 238, 238);
     color: black;
     border: 2px solid black;

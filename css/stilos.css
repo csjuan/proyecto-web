@@ -52,3 +52,46 @@
 .animate__animated:hover {
     transform: rotate(180deg);
 }
+
+.area {
+        display: grid;
+        text-align: center;
+}
+@media (min-width: 907px) {
+    .area {
+        display: grid;
+        text-align: center;
+        gap: 15px;
+        grid-template-areas: 
+        "text foto foto"
+        "fot5 foto foto"
+        "text1 text1 text1" 
+        "fot3  fot6 fot6"
+        "fot3 fot4 fot4"
+        "fot2 fot4 fot4"; 
+    }
+    .texto {  
+        grid-area: text;
+    }
+    .foto1 {
+        grid-area: foto ;
+    }
+    .texto1 {
+        grid-area: text1;
+    }
+    .foto2 {
+        grid-area: fot2;
+    }
+    .foto3 {
+        grid-area: fot3;
+    }
+    .fot4 {
+        grid-area: fot4;
+    }
+    .foto5 {
+        grid-area: fot5;
+    }
+    .foto6 {   
+        grid-area: fot6;
+    }   
+       }
