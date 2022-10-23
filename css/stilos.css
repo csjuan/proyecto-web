@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/*  .fondo {
-    background-color:rgb(238, 238, 238);
-}*/
 .hd1 {
     text-align: center;
     background-color: rgb(238, 238, 238);
@@ -20,15 +17,15 @@
     width: auto;
     background-color: aliceblue;
  }
- @media (min-width: 650px) { 
- #menu {
+ /*@media (min-width: 650px) { 
+   #menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: 1fr;
     gap: 5px;
 }
- }
- .mesa {
+ }*/
+ /*  .mesa {
     display: inline-block;
     text-align: center;
     gap: 15px;
@@ -36,13 +33,14 @@
 .pie {
     background-color:  rgb(238, 238, 238);
     color: black;
+    width: 100%;
     border: 2px solid black;
 }
 .dir {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
-}
+}*/
 .redes {
     display:flex;
 }
