@@ -6,26 +6,25 @@
 }
 
 #slider {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(253, 253, 253);
 }
 #slider .hd1 {
   text-align: center;
-  border: solid 2px black;
 }
 #slider .hd1:hover {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(234, 231, 231);
 }
 #slider .img {
   width: 100%;
 }
 #slider h2:hover {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(234, 231, 231);
 }
 #slider h3:hover {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(234, 231, 231);
 }
 #slider h4:hover {
-  background-color: rgb(203, 203, 203);
+  background-color: rgb(234, 231, 231);
 }
 
 .cont {
@@ -34,7 +33,7 @@
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   border: solid 2px black;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(255, 255, 255);
   color: black;
   border-radius: 25px;
 }
@@ -76,7 +75,7 @@
 
 .pie {
   width: auto;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(255, 254, 254);
   color: black;
   border: 2px solid black;
 }
@@ -96,6 +95,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   color: black;
+}
+
+.boton:hover {
+  color: rgb(17, 13, 130);
 }
 
 .redes {

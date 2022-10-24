@@ -1,9 +1,10 @@
-$color1: rgb(203, 203, 203);
-$color2:  rgb(238, 238, 238);
+$color1: rgb(234, 231, 231);
+$color2:  rgb(253, 253, 253);
 $color3: black ;
 $color4: rgb(75, 75, 75);
 $color5: white;
 $color6: rgb(231, 231, 231);
+$color7: rgb(17, 13, 130) ;
 
 @mixin cont {
     display: inline-flex;
@@ -11,7 +12,7 @@ $color6: rgb(231, 231, 231);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     border: solid 2px black; 
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(255, 255, 255);
     color: $color3;
 }
 @mixin bt {
@@ -24,7 +25,7 @@ $color6: rgb(231, 231, 231);
     background-color: $color2 ;
     .hd1 {
      text-align: center;
-     border: solid 2px $color3;
+     
     }
     .hd1:hover {
         background-color: $color1;
@@ -63,7 +64,7 @@ $color6: rgb(231, 231, 231);
 }
 .pie {
     width: auto;
-    background-color:  rgb(238, 238, 238);
+    background-color:  rgb(255, 254, 254);
     color: black;
     border: 2px solid black;
     .dir {
@@ -79,9 +80,11 @@ $color6: rgb(231, 231, 231);
     text-align: center;
     .boton {
         @include bt;
-    
 
     }
+}
+.boton:hover {
+    color: $color7;
 }
 .redes {
     display:flex;
