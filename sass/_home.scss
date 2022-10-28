@@ -42,6 +42,32 @@ $color7: rgb(17, 13, 130) ;
         background-color: $color1;
      }
 }
+.image {
+    .hd1 {
+        text-align: center;   
+     }
+    .hd1:hover {
+           background-color: $color1;
+     }
+}
+.image {
+    .seccionImage {
+        display: grid;
+    }
+}
+@media (min-width: 848px) {
+    .image {
+        .seccionImage {
+            display: grid;
+            gap: 25px 50px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr ;
+            text-align: center;
+            padding: 60px;
+        }
+    }
+}
+
 .cont {
     @include cont;
     border-radius: 25px;
@@ -49,7 +75,7 @@ $color7: rgb(17, 13, 130) ;
 #bann {
     display: none;
 }
-@media (min-width: 650px) {
+@media (min-width: 705px) {
     #bann {   
         display: flex; 
         justify-content: space-around;

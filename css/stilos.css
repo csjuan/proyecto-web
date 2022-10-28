@@ -59,7 +59,6 @@
     .area {
         display: grid;
         text-align: center;
-        gap: 15px;
         grid-template-areas: 
         "text foto foto"
         "fot5 foto foto"
